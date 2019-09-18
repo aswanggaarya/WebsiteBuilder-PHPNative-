@@ -1,0 +1,89 @@
+html {
+	position: relative;
+
+}
+
+body {
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 400px;
+	background-image: url('../img/office.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -150px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+hr {
+	width: 250px;
+	border-top: 2px solid #666;
+}
+
+section {
+	min-height: 400px;
+}
+
+.menu2 {
+	background-image: url('../img/office2.png');
+	background-attachment: fixed;
+
+}
+
+.menu2 h2, .menu2 p {
+	color: white;
+}
+
+.menu2 hr {
+	border-top: 2px solid white;
+}
+
+.Pkiri, .Pkanan {
+	opacity: 0;
+	transform: translate(50px, 0) ;
+	transition: 1s;
+}
+
+.Pkanan {
+	transform: translate(-50px, 0) ;
+
+}
+
+.Pkiri.Pmuncul, .Pkanan.Pmuncul {
+	opacity: 1;
+	transform: translate(0,0);
+
+}
+
+.menu3 {
+	background-image: url('../img/backgroundqr.png');
+	background-size: cover;
+
+	
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #999;
+	padding-top: 0px;
+}
+
+footer p i {
+	color: salmon;
+}

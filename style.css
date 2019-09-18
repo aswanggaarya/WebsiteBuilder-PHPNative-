@@ -1,0 +1,51 @@
+html{
+	width: 100%;
+}
+
+.navbar{
+	opacity: 100%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.navbar-nav a{
+	color: white;
+	font-family: sans-serif;
+	margin-left: 15px;
+}
+
+.signup .btn{
+	margin-top: 10%;
+	margin-left: -15%;
+	width: 25%;
+}
+
+.signup h3{
+	margin-top: 30%;
+}
+
+.signup input{
+	margin-top: 10%;
+	border-radius: 0%;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
+
+.login .btn{
+	margin-top: 10%;
+	margin-left: -15%;
+	width: 25%;
+}
+
+.login h3{
+	margin-top: 30%;
+}
+
+.login input{
+	margin-top: 10%;
+	border-radius: 0%;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}

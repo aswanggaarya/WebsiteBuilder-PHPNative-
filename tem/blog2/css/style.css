@@ -1,0 +1,90 @@
+html {
+	position: relative;
+	padding: 0px;
+
+}
+
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #c6d7c1;
+}
+
+.jumbotron {
+	height: 250px;
+	background-image: url('../img/jalanan.png');
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	background-position: 0 -150px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+/*.container p {
+	width: 100%;
+}
+*/
+.row.content {
+	height: 2100px;
+}
+
+.sidenav {
+	position: fixed;
+	background-color: #e6e6e6;
+	height: auto;
+	padding: 15px;
+	width: 
+}
+
+/*.blog {
+	margin-left: 330px;
+}*/
+
+.Pkiri, .Pkanan {
+	opacity: 0;
+	transform: translate(50px, 0) ;
+	transition: 1s;
+}
+
+.Pkanan {
+	transform: translate(-50px, 0) ;
+
+}
+
+.Pkiri.Pmuncul, .Pkanan.Pmuncul {
+	opacity: 1;
+	transform: translate(0,0);
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #e6e6e6;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+footer p i {
+	color: salmon;
+}
+
+footer p {
+	width: 100%;
+}
+
+
+
